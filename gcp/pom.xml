@@ -12,8 +12,8 @@
 	<modelVersion>4.0.0</modelVersion>    <!-- REQUIRED -->
 	<packaging>war</packaging>            <!-- REQUIRED -->
 
-	<groupId>com.example.flex.helloworld</groupId>
-	<artifactId>helloworld-servlet</artifactId> <!-- Name of your project -->
+	<groupId>gcp</groupId>
+	<artifactId>gcp</artifactId> <!-- Name of your project -->
 	<version>1.0-SNAPSHOT</version>       <!-- xx.xx.xx -SNAPSHOT means development -->
 
 	<properties>
@@ -26,12 +26,7 @@
 		<jetty.maven.plugin>9.4.3.v20170317</jetty.maven.plugin>
 	</properties>
 
-	<parent>                              <!-- Get parameters and allow bulk testing -->
-		<artifactId>getting-started-java</artifactId>
-		<groupId>com.example</groupId>
-		<version>1.0.0</version>
-		<relativePath>..</relativePath>
-	</parent>
+
 
 	<dependencies>
 		<dependency>                        <!-- REQUIRED -->
